@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1579286709 source:y:\university\comp\2710\projects\loancalculator\main.cpp
+	<cmath>
+	<iostream>
+
