@@ -102,6 +102,7 @@ int readFile(int inputArray[], ifstream& inStream) {
 		inStream.open((char*)fName.c_str());
 		if(inStream.fail()) {
 			cout << "Please enter correct file path: ";
+			inStream.close();
 		} // if filename is invalid, loop
 	} while(inStream.fail());
 	// copies file data to inputArray
