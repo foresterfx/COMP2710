@@ -8,7 +8,7 @@
 * RUN: ./p3
 ********************************************************************************
 * GOALS:
-*		To learn streams and file I/O.
+* 	To learn streams and file I/O.
 * 	To learn how to use tools for stream I/O.
 * 	To use arrays to group data elements.
 * 	To design and implement functions.
