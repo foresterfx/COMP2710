@@ -15,7 +15,7 @@
 *   To perform unit testing
 *
 * CODE DESCRIPTION:
-* 	Program that allows player 1 to create trivia questions and their answers.
+*   Program that allows player 1 to create trivia questions and their answers.
 *   Multiple questions are organized and managed using linked data structures.
 *   No arrays are allowed. Then asks player 2 those questions & stores their
 *   input. Compares p2's input with p1's answer. If matches, award points.
@@ -23,7 +23,7 @@
 *   display the total award points that p2 won.
 *
 * SOURCES:
-*	1. I used the Project 4 handout for guidance.
+* 1. I used the Project 4 handout for guidance.
 * 2. I referenced my own Project 1/2/3 source code for outlinin.
 * 3. I checked cplusplus.com for information on getline
 *     http://www.cplusplus.com/reference/istream/istream/getline/
@@ -83,14 +83,14 @@ int main() {
   init_question_list(node_list);
   int num_of_questions = 3; // default questions
   bool run = true;
-	//Creates a new trivia game /
-	//Sets up three original questions/
-	//Sets up loop for user to input his or her own questions.
-	//Quiz questions are stored in linked list.
+  //Creates a new trivia game /
+  //Sets up three original questions/
+  //Sets up loop for user to input his or her own questions.
+  //Quiz questions are stored in linked list.
   /*****************************************************************
-	* STANDARD INPUT/OUTPUT AND FUNCTION CALLING BEGINS HERE
-	*****************************************************************/
-	cout << "*** Welcome to Forester's Trivia Quiz Game ***\n";
+  * STANDARD INPUT/OUTPUT AND FUNCTION CALLING BEGINS HERE
+  *****************************************************************/
+  cout << "*** Welcome to Forester's Trivia Quiz Game ***\n";
   num_of_questions = qCount(); // prompts user for how many questions to ask
 
   if(num_of_questions > 3) {
@@ -107,12 +107,12 @@ int main() {
       run = contYN(run); // Verify if user wants to add more questions
     }
   }
-	/*************** This is the start of Trivia game ***************/
+  /*************** This is the start of Trivia game ***************/
   cout << endl;
-	ask_question(node_list, num_of_questions);
-	cout << "*** Thank you for playing Forester's Trivia Quiz Game. Goodbye! ***\n";
+  ask_question(node_list, num_of_questions);
+  cout << "*** Thank you for playing Forester's Trivia Quiz Game. Goodbye! ***\n";
   /**************** This is the end of Trivia game ****************/
-	return 0;
+  return 0;
 }
 #endif
 /*******************
@@ -121,9 +121,9 @@ int main() {
 #ifdef UNIT_TESTING
   cout << "*** This is a debugging version. ***\n";
   init_question_list(node_list);
-	Unit_Test();
-	return 0;
-	}
+  Unit_Test();
+  return 0;
+  }
 #endif
 /*****************************************************************
 * FUNCTIONS && TEST DRIVER FUNCTIONS
@@ -141,9 +141,9 @@ void init_question_list(ptr_node& q_list) {
   ptr2->next = ptr3;
   ptr3->next = NULL;
 
-	ptr1->question = "How long was the shortest war on record?";
-	ptr1->answer = "38";
-	ptr1->point = 100;
+  ptr1->question = "How long was the shortest war on record?";
+  ptr1->answer = "38";
+  ptr1->point = 100;
 
   ptr2->question = "What was Bank of America’s original name? (Hint: Bank of Italy or Bank of Germany)";
   ptr2->answer = "Bank of Italy";
@@ -250,36 +250,36 @@ int ask_question(ptr_node q_list, int num_ask) {
   // counts the amount of questions in linked list
   num_of_questions = getCount(q_list);
 
-	if (q_list == NULL) {
+  if (q_list == NULL) {
     cout << "Warning - this is impossible. Contact Administrator." << endl;
-		return (value = 0); // default list has 3 questions always
+    return (value = 0); // default list has 3 questions always
   }
-	if(num_ask < 1) {
-		cout << "Warning - the number of trivia to be asked must "
+  if(num_ask < 1) {
+    cout << "Warning - the number of trivia to be asked must "
           << "be equal to or larger than 1." << endl;
     value = 1; // test case 1
-	}
-	else if(num_of_questions < num_ask) { // not enough questions
-		cout << "Warning - There are only " << num_of_questions // amount in list
+  }
+  else if(num_of_questions < num_ask) { // not enough questions
+    cout << "Warning - There are only " << num_of_questions // amount in list
           << " of " << num_ask // amount requested
           << " question(s) available in the list." << endl;
     value = 4; // test case 4
-	}
-	else {
-  	for(int x = 0; x < num_ask; x++) {
+  }
+  else {
+    for(int x = 0; x < num_ask; x++) {
 
-  		cout << "Question: " << cur_ptr->question << endl;
-  		cout << "Answer: ";
+      cout << "Question: " << cur_ptr->question << endl;
+      cout << "Answer: ";
 
-  		getline(cin, user_answer);
+      getline(cin, user_answer);
 
-  		if (user_answer.compare(cur_ptr->answer) == 0) {
+      if (user_answer.compare(cur_ptr->answer) == 0) {
         cout  << "Your answer is correct. You receive "
                 << cur_ptr->point << " points." << endl;
         point_total += cur_ptr->point;
         value = 3; // test case 2.2
-  		}
-  		else {
+      }
+      else {
         // what answer should be
         cout << "Your answer is wrong. The correct answer is: "
               << cur_ptr->answer << endl;
@@ -289,24 +289,24 @@ int ask_question(ptr_node q_list, int num_ask) {
       cur_ptr = cur_ptr->next;
     } // end for
    }
-	return value;
+  return value;
 }
 /*****************************************************************
 * Unit_Test()
 * Test cases to check whether the methods work.
 *****************************************************************/
 void Unit_Test() {
-	ptr_node node_list = new trivia_node;
-	init_question_list(node_list);
+  ptr_node node_list = new trivia_node;
+  init_question_list(node_list);
   int test;
 
-	cout << "Unit Test Case 1: Ask no questions. The program should"
+  cout << "Unit Test Case 1: Ask no questions. The program should"
         << " give a warning message." << endl;
   if ((test = ask_question(node_list, 0)) == 1){
-	  cout << "\nCase 1 Passed\n\n";
+    cout << "\nCase 1 Passed\n\n";
   } else { cout << "\nCase 1 Failed\n\n"; }
 
-	cout << "Unit Test Case 2.1: Ask 1 question in the linked list. "
+  cout << "Unit Test Case 2.1: Ask 1 question in the linked list. "
         << "The tester enters an incorrect answer." << endl;
 
   if ((test = ask_question(node_list, 1)) == 2){
