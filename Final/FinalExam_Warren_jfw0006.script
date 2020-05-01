@@ -1,0 +1,458 @@
+Script started on 2020-05-01 05:28:37-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="211" LINES="51"]
+]0;forester@RYZUNTU: ~/Downloads/Final[01;32mforester@RYZUNTU[00m:[01;34m~/Downloads/Final[00m$ bash-[K[K[K[K[Kstop
+
+Command 'stop' not found, but there are 19 similar ones.
+
+]0;forester@RYZUNTU: ~/Downloads/Final[01;32mforester@RYZUNTU[00m:[01;34m~/Downloads/Final[00m$ stopudo apt upgrade-get updatereboot[Ksudo apt upgrade[1Pdategrade[10Prebootsudo apt-get update[3P upgradetop[K[Kstopudo apt upgrade-get updatereboot[Ksudo apt upgrade[1Pdategrade-get updatecp project4_jfw0006.cpp jfw0006@scp.eng.auburn.edu:/home/u1/jfw0006/Projects/Project4[27P/home/u1/jfw0006/Projects/Project4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kclosessh jfw0006@gate.eng.auburn.edu./p4[Kssh jfw0006@gate.eng.auburn.edu
+jfw0006@gate.eng.auburn.edu's password: 
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-169-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+New release '18.04.4 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+Last login: Tue Apr 14 19:35:08 2020 from 68.184.57.177
+Welcome to Auburn University -- College of Engineering 
+===================================================================
+WARNING: ANY UNAUTHORIZED ACCESS IS STRICTLY PROHIBITED
+
+For comments, questions, or general contact, 
+please email admin@eng.auburn.edu 
+===================================================================
+
+--NOTE:--
+
+The ssh protocol is used to login to unix/linux machines. You
+will be prompted to accept a machine key the first time you login
+to an individual machine. You will also be prompted for a password a
+second time each time you login.
+
+If you choose the default login location you will be connecting
+to a linux lab machine located in Davis Hall (Aerospace), room 123.
+===================================================================
+
+
+Please enter the name of an Engineering host <anywhere>: 
+The authenticity of host '131.204.14.247 (131.204.14.247)' can't be established.
+ECDSA key fingerprint is SHA256:U7cTyCU9cmlIqbPH+etAAtIkVdwPCmS8u+u0qcLOFRs.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '131.204.14.247' (ECDSA) to the list of known hosts.
+
+jfw0006@131.204.14.247's password: 
+
+** Authorized uses only. All activity may be monitored and reported. **
+
+[?1034hjfw0006@tux247:~$ exit./p4g++ project4_jfw0006.cpp -o p4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kpwd[1Plscd Project4ls[Kpwd
+/home/u1/jfw0006
+jfw0006@tux247:~$ ls
+[0m[48;5;10;38;5;21mappdata[0m  [38;5;27mApplication Data[0m  [38;5;27mDesktop[0m  [38;5;27mDocuments[0m  [38;5;27mExam2[0m  ntuser.cmd  [38;5;27mProjects[0m  [38;5;27mQuiz1[0m  [38;5;9mQuiz1_jfw0006.tar.gz[0m
+jfw0006@tux247:~$ mkdir FinalExam
+jfw0006@tux247:~$ cd /[K[K FinalExam
+jfw0006@tux247:~/FinalExam$ ls
+FinalExam_Warren_jfw0006.cpp
+jfw0006@tux247:~/FinalExam$ g++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread
+jfw0006@tux247:~/FinalExam$ ls
+[0m[38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp
+jfw0006@tux247:~/FinalExam$ script FinalExam_)[KWarren_jfw0006.script
+Script started, file is FinalExam_Warren_jfw0006.script
+[?1034hbash-4.2$ ./FinalExam_Warren_jfw0006
+Banner id: 903219491
+Philosopher 0 is thinking.
+Philosopher 2 is thinking.
+Philosopher 1 is thinking.
+Philosopher 0 is thinking.
+Philosopher 3 is thinking.
+Philosopher 3 is hungry.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+Philosopher 0 is hungry.
+Philosopher 0 is hungry.
+Philosopher 2 is hungry.
+Philosopher 1 is hungry.
+Philosopher 3 put down Chopstick 3.
+Philosopher 3 put down Chopstick 4.
+Philosopher 3 is thinking.
+Philosopher 0 picked up Chopstick 4, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 0, now is eating with two chopsticks.
+Philosopher 3 is hungry.
+Philosopher 0 put down Chopstick 4.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 is thinking.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 0 is hungry.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 put down Chopstick 1.
+Philosopher 0 is thinking.
+Philosopher 2 picked up Chopstick 2, can NOT eat with one chopstick.
+Philosopher 2 picked up Chopstick 3, now is eating with two chopsticks.
+Philosopher 0 is hungry.
+Philosopher 2 put down Chopstick 2.
+Philosopher 2 put down Chopstick 3.
+Philosopher 2 is thinking.
+Philosopher 1 picked up Chopstick 1, can NOT eat with one chopstick.
+Philosopher 1 picked up Chopstick 2, now is eating with two chopsticks.
+Philosopher 2 is hungry.
+Philosopher 1 put down Chopstick 1.
+Philosopher 1 put down Chopstick 2.
+Philosopher 1 is thinking.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+Philosopher 3 put down Chopstick 3.
+Philosopher 3 put down Chopstick 4.
+Philosopher 3 is thinking.
+Philosopher 0 picked up Chopstick 4, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 0, now is eating with two chopsticks.
+Philosopher 1 is hungry.
+Philosopher 0 put down Chopstick 4.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 is thinking.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 put down Chopstick 1.
+Philosopher 0 is thinking.
+Philosopher 2 picked up Chopstick 2, can NOT eat with one chopstick.
+Philosopher 2 picked up Chopstick 3, now is eating with two chopsticks.
+Philosopher 0 is hungry.
+Philosopher 0 is hungry.
+Philosopher 3 is hungry.
+Philosopher 2 put down Chopstick 2.
+Philosopher 2 put down Chopstick 3.
+Philosopher 2 is thinking.
+Philosopher 1 picked up Chopstick 1, can NOT eat with one chopstick.
+Philosopher 1 picked up Chopstick 2, now is eating with two chopsticks.
+Philosopher 1 put down Chopstick 1.
+Philosopher 1 put down Chopstick 2.
+Philosopher 1 is thinking.
+Philosopher 0 picked up Chopstick 4, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 0, now is eating with two chopsticks.
+Philosopher 0 put down Chopstick 4.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 is thinking.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 2 is hungry.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 put down Chopstick 1.
+Philosopher 0 is thinking.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+Philosopher 3 put down Chopstick 3.
+Philosopher 3 put down Chopstick 4.
+Philosopher 3 is thinking.
+Philosopher 2 picked up Chopstick 2, can NOT eat with one chopstick.
+Philosopher 2 picked up Chopstick 3, now is eating with two chopsticks.
+Philosopher 3 is hungry.
+Philosopher 0 is hungry.
+Philosopher 1 is hungry.
+Philosopher 0 is hungry.
+Philosopher 2 put down Chopstick 2.
+Philosopher 2 put down Chopstick 3.
+Philosopher 2 is thinking.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+^Z
+[1]+  Stopped                 ./FinalExam_Warren_jfw0006
+bash-4.2$ e x[K[Kxit
+exit
+There are stopped jobs.
+bash-4.2$ exit
+exit
+Script done, file is FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam$ ls
+[0m[38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam$ rmfile
+bash: rmfile: command not found...
+jfw0006@tux247:~/FinalExam$ rmf[Kvfile
+bash: rmvfile: command not found...
+jfw0006@tux247:~/FinalExam$ rm[K[Kremove
+bash: remove: command not found...
+jfw0006@tux247:~/FinalExam$ deleet[K[Kte
+bash: delete: command not found...
+jfw0006@tux247:~/FinalExam$ rm FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam$ rmF[K FinalExam_Warren_jfw0006.cpp
+jfw0006@tux247:~/FinalExam$ rm FinalExam_Warren_jfw0006.cpp[K[K[Kscript
+jfw0006@tux247:~/FinalExam$ ls
+jfw0006@tux247:~/FinalExam$ ls
+FinalExam_Warren_jfw0006.cpp
+jfw0006@tux247:~/FinalExam$ lsrm FinalExam_Warren_jfw0006.script[3Pcpp[Kdelete[Kremovemvfile[1Pfile[4Plsscript FinalExam_Warren_jfw0006.script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd FinalExam[3@mkdir[C[C[C[C[C[C[C[C[C[Cls[Kpwdexit./p4exit[1Ppwd[1Plsmkdir FinalExam[3Pcd[C[C[C[C[C[C[C[C[C[Cls[Kg++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kscript FinalExam_Warren_jfw0006.script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krmfilevfile[1Pemovedeleterm FinalExam_Warren_jfw0006.cppscript[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K[Kscript Final[K[K[K[K[K[K[K[K[K[K[K[Klsrm FinalExam_Warren_jfw0006.script[3Pcpp[Kdelete[Kremovemvfile[1Pfile[4Plsscript FinalExam_Warren_jfw0006.script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread
+jfw0006@tux247:~/FinalExam$ ls
+[0m[38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp
+jfw0006@tux247:~/FinalExam$ script FinalExam_Warren_jfw0006.script
+Script started, file is FinalExam_Warren_jfw0006.script
+[?1034hbash-4.2$ ./FinalExam_Warren_jfw0006
+Banner id: 903219491
+Philosopher 0 is thinking.
+Philosopher 2 is thinking.
+Philosopher 4 is thinking.
+Philosopher 1 is thinking.
+Philosopher 3 is thinking.
+Philosopher 0 is hungry.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 3 is hungry.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+Philosopher 2 is hungry.
+Philosopher 1 is hungry.
+Philosopher 3 put down Chopstick 3.
+Philosopher 3 put down Chopstick 4.
+Philosopher 3 is thinking.
+Philosopher 2 picked up Chopstick 2, can NOT eat with one chopstick.
+Philosopher 2 picked up Chopstick 3, now is eating with two chopsticks.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 put down Chopstick 1.
+Philosopher 0 is thinking.
+Philosopher 1 picked up Chopstick 1, can NOT eat with one chopstick.
+Philosopher 0 is hungry.
+Philosopher 4 is hungry.
+Philosopher 2 put down Chopstick 2.
+Philosopher 2 put down Chopstick 3.
+Philosopher 2 is thinking.
+Philosopher 1 picked up Chopstick 2, now is eating with two chopsticks.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 3 is hungry.
+Philosopher 1 put down Chopstick 1.
+Philosopher 1 put down Chopstick 2.
+Philosopher 1 is thinking.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 4 picked up Chopstick 4, can NOT eat with one chopstick.
+Philosopher 2 is hungry.
+Philosopher 1 is hungry.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 put down Chopstick 1.
+Philosopher 0 is thinking.
+Philosopher 4 picked up Chopstick 0, now is eating with two chopsticks.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 0 is hungry.
+Philosopher 4 put down Chopstick 4.
+Philosopher 4 put down Chopstick 0.
+Philosopher 4 is thinking.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+Philosopher 2 picked up Chopstick 2, can NOT eat with one chopstick.
+Philosopher 4 is hungry.
+Philosopher 3 put down Chopstick 3.
+Philosopher 3 put down Chopstick 4.
+Philosopher 3 is thinking.
+Philosopher 2 picked up Chopstick 3, now is eating with two chopsticks.
+Philosopher 1 picked up Chopstick 1, can NOT eat with one chopstick.
+Philosopher 3 is hungry.
+Philosopher 2 put down Chopstick 2.
+Philosopher 2 put down Chopstick 3.
+Philosopher 2 is thinking.
+Philosopher 1 picked up Chopstick 2, now is eating with two chopsticks.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 2 is hungry.
+Philosopher 1 put down Chopstick 1.
+Philosopher 1 put down Chopstick 2.
+Philosopher 1 is thinking.
+Philosopher 4 picked up Chopstick 4, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 1 is hungry.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 put down Chopstick 1.
+Philosopher 0 is thinking.
+Philosopher 4 picked up Chopstick 0, now is eating with two chopsticks.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 0 is hungry.
+Philosopher 4 put down Chopstick 4.
+Philosopher 4 put down Chopstick 0.
+Philosopher 4 is thinking.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+Philosopher 2 picked up Chopstick 2, can NOT eat with one chopstick.
+Philosopher 4 is hungry.
+Philosopher 3 put down Chopstick 3.
+Philosopher 3 put down Chopstick 4.
+Philosopher 3 is thinking.
+Philosopher 2 picked up Chopstick 3, now is eating with two chopsticks.
+Philosopher 1 picked up Chopstick 1, can NOT eat with one chopstick.
+Philosopher 3 is hungry.
+Philosopher 2 put down Chopstick 2.
+Philosopher 2 put down Chopstick 3.
+Philosopher 2 is thinking.
+Philosopher 1 picked up Chopstick 2, now is eating with two chopsticks.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 2 is hungry.
+Philosopher 1 put down Chopstick 1.
+Philosopher 1 put down Chopstick 2.
+Philosopher 1 is thinking.
+Philosopher 4 picked up Chopstick 4, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 put down Chopstick 1.
+Philosopher 0 is thinking.
+Philosopher 4 picked up Chopstick 0, now is eating with two chopsticks.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 1 is hungry.
+Philosopher 4 put down Chopstick 4.
+Philosopher 4 put down Chopstick 0.
+Philosopher 4 is thinking.
+Philosopher 2 picked up Chopstick 2, can NOT eat with one chopstick.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+Philosopher 0 is hungry.
+Philosopher 3 put down Chopstick 3.
+Philosopher 3 put down Chopstick 4.
+Philosopher 3 is thinking.
+Philosopher 2 picked up Chopstick 3, now is eating with two chopsticks.
+Philosopher 1 picked up Chopstick 1, can NOT eat with one chopstick.
+Philosopher 4 is hungry.
+Philosopher 2 put down Chopstick 2.
+Philosopher 2 put down Chopstick 3.
+Philosopher 2 is thinking.
+Philosopher 1 picked up Chopstick 2, now is eating with two chopsticks.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 1 put down Chopstick 1.
+Philosopher 1 put down Chopstick 2.
+Philosopher 1 is thinking.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 4 picked up Chopstick 4, can NOT eat with one chopstick.
+Philosopher 1 is hungry.
+Philosopher 3 is hungry.
+Philosopher 0 put down Chopstick 0.
+Philosopher 0 put down Chopstick 1.
+Philosopher 0 is thinking.
+Philosopher 4 picked up Chopstick 0, now is eating with two chopsticks.
+Philosopher 1 picked up Chopstick 1, can NOT eat with one chopstick.
+Philosopher 1 picked up Chopstick 2, now is eating with two chopsticks.
+Philosopher 1 put down Chopstick 1.
+Philosopher 1 put down Chopstick 2.
+Philosopher 1 is thinking.
+Philosopher 3 picked up Chopstick 3, can NOT eat with one chopstick.
+Philosopher 2 is hungry.
+Philosopher 0 is hungry.
+Philosopher 1 is hungry.
+Philosopher 4 put down Chopstick 4.
+Philosopher 4 put down Chopstick 0.
+Philosopher 4 is thinking.
+Philosopher 3 picked up Chopstick 4, now is eating with two chopsticks.
+Philosopher 2 picked up Chopstick 2, can NOT eat with one chopstick.
+Philosopher 4 is hungry.
+Philosopher 3 put down Chopstick 3.
+Philosopher 3 put down Chopstick 4.
+Philosopher 3 is thinking.
+Philosopher 2 picked up Chopstick 3, now is eating with two chopsticks.
+Philosopher 0 picked up Chopstick 0, can NOT eat with one chopstick.
+Philosopher 0 picked up Chopstick 1, now is eating with two chopsticks.
+Philosopher 3 is hungry.
+Philosopher 2 put down Chopstick 2.
+Philosopher 2 put down Chopstick 3.
+Philosopher 2 is thinking.
+^C
+bash-4.2$ exit
+exit
+Script done, file is FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam$ ls
+[0m[38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam$ cd
+jfw0006@tux247:~$ mkdir FinalExam_Warren_jfw006[K06
+jfw0006@tux247:~$ ls
+[0m[48;5;10;38;5;21mappdata[0m  [38;5;27mApplication Data[0m  [38;5;27mDesktop[0m  [38;5;27mDocuments[0m  [38;5;27mExam2[0m  [38;5;27mFinalExam[0m  [38;5;27mFinalExam_Warren_jfw0006[0m  ntuser.cmd  [38;5;27mProjects[0m  [38;5;27mQuiz1[0m  [38;5;9mQuiz1_jfw0006.tar.gz[0m
+jfw0006@tux247:~$ cd/[K fin[K[K[K[K FinalExam
+jfw0006@tux247:~/FinalExam$ mv FinalExam FinalExam_L[KWarren_jfw0006
+mv: cannot stat ‘FinalExam’: No such file or directory
+jfw0006@tux247:~/FinalExam$ cd
+jfw0006@tux247:~$ mv FinalExam FinalExam_w[KWarren_jfw0006
+jfw0006@tux247:~$ ls
+[0m[48;5;10;38;5;21mappdata[0m  [38;5;27mApplication Data[0m  [38;5;27mDesktop[0m  [38;5;27mDocuments[0m  [38;5;27mExam2[0m  [38;5;27mFinalExam_Warren_jfw0006[0m  ntuser.cmd  [38;5;27mProjects[0m  [38;5;27mQuiz1[0m  [38;5;9mQuiz1_jfw0006.tar.gz[0m
+jfw0006@tux247:~$ cd FinalExam_warrn[Ke[K[K[K[K[KWarren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ ls
+[0m[38;5;27mFinalExam[0m
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ cd FinalExam
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ mv [K[K[Kls
+[0m[38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ mv FinalExam_warre[K[K[K[K[KWarren_jfw0006 ~/FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ ls
+FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ lsmv FinalExam_Warren_jfw0006 ~/FinalExam_Warren_jfw0006[1@.[1P[C. ~/FinalExam_Warren_jfw0006c ~/FinalExam_Warren_jfw0006p ~/FinalExam_Warren_jfw0006[ ~/FinalExam_Warren_jfw0006p ~/FinalExam_Warren_jfw0006[1P ~/FinalExam_Warren_jfw0006[1P ~/FinalExam_Warren_jfw0006p ~/FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ mv FinalExam_Warren_jfw0006.cpp ~/FinalExam_Warren_jfw0006[1P[C[1P ~/FinalExam_Warren_jfw0006[1P ~/FinalExam_Warren_jfw0006s ~/FinalExam_Warren_jfw0006c ~/FinalExam_Warren_jfw0006r ~/FinalExam_Warren_jfw0006i ~/FinalExam_Warren_jfw0006p ~/FinalExam_Warren_jfw0006t ~/FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ ls
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ cd
+jfw0006@tux247:~$ cd FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ ls
+[0m[38;5;27mFinalExam[0m  [38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ rm FinalExam
+rm: cannot remove ‘FinalExam’: Is a directory
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ l[Krmv FinalExam
+bash: rmv: command not found...
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ mv FinalExam n[K~/
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ ls
+[0m[38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ cd
+jfw0006@tux247:~$ tar -zcvf FinalExam_Warren_jfw0006.tar.gz FinalExam [K_Warren_jfw0006
+FinalExam_Warren_jfw0006/
+FinalExam_Warren_jfw0006/FinalExam_Warren_jfw0006.script
+FinalExam_Warren_jfw0006/FinalExam_Warren_jfw0006
+FinalExam_Warren_jfw0006/FinalExam_Warren_jfw0006.cpp
+jfw0006@tux247:~$ ls
+[0m[48;5;10;38;5;21mappdata[0m  [38;5;27mApplication Data[0m  [38;5;27mDesktop[0m  [38;5;27mDocuments[0m  [38;5;27mExam2[0m  [38;5;27mFinalExam[0m  [38;5;27mFinalExam_Warren_jfw0006[0m  [38;5;9mFinalExam_Warren_jfw0006.tar.gz[0m  ntuser.cmd  [38;5;27mProjects[0m  [38;5;27mQuiz1[0m  [38;5;9mQuiz1_jfw0006.tar.gz[0m
+jfw0006@tux247:~$ lstar -zcvf FinalExam_Warren_jfw0006.tar.gz FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Klscdlsmv FinalExam ~/[2Prmv FinalExam[1P FinalExamls[Kcd FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Klsmv FinalExam_Warren_jfw0006.script ~/FinalExam_Warren_jfw0006[3Pcpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv FinalExam_Warren_jfw0006 ~/FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd FinalExamls[Kcd FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv FinalExam FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Kmv FinalExam FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd FinalExam[Kls[Kmkdir FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Klsscript FinalExam_Warren_jfw0006.script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm FinalExam_Warren_jfw0006.script[3Pcpp[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdelete[Kremovemvfile[1Pfile[4Plsscript FinalExam_Warren_jfw0006.script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd FinalExam[3@mkdir[C[C[C[C[C[C[C[C[C[Cls[Kpwdexit[1Ppwd[K[K[Kps[Kwd
+/home/u1/jfw0006
+jfw0006@tux247:~$ exit
+logout
+Connection to 131.204.14.247 closed.
+Connection to gate.eng.auburn.edu closed.
+]0;forester@RYZUNTU: ~/Downloads/Final[01;32mforester@RYZUNTU[00m:[01;34m~/Downloads/Final[00m$ exit
+exit
+
+Script done on 2020-05-01 06:15:51-05:00 [COMMAND_EXIT_CODE="0"]
+ux247:~/FinalExam_Warren_jfw0006$ ls
+[0m[38;5;27mFinalExam[0m
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ cd FinalExam
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ mv [K[K[Kls
+[0m[38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ mv FinalExam_warre[K[K[K[K[KWarren_jfw0006 ~/FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ ls
+FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ lsmv FinalExam_Warren_jfw0006 ~/FinalExam_Warren_jfw0006[1@.[1P[C. ~/FinalExam_Warren_jfw0006c ~/FinalExam_Warren_jfw0006p ~/FinalExam_Warren_jfw0006[ ~/FinalExam_Warren_jfw0006p ~/FinalExam_Warren_jfw0006[1P ~/FinalExam_Warren_jfw0006[1P ~/FinalExam_Warren_jfw0006p ~/FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ mv FinalExam_Warren_jfw0006.cpp ~/FinalExam_Warren_jfw0006[1P[C[1P ~/FinalExam_Warren_jfw0006[1P ~/FinalExam_Warren_jfw0006s ~/FinalExam_Warren_jfw0006c ~/FinalExam_Warren_jfw0006r ~/FinalExam_Warren_jfw0006i ~/FinalExam_Warren_jfw0006p ~/FinalExam_Warren_jfw0006t ~/FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ ls
+jfw0006@tux247:~/FinalExam_Warren_jfw0006/FinalExam$ cd
+jfw0006@tux247:~$ cd FinalExam_Warren_jfw0006
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ ls
+[0m[38;5;27mFinalExam[0m  [38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ rm FinalExam
+rm: cannot remove ‘FinalExam’: Is a directory
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ l[Krmv FinalExam
+bash: rmv: command not found...
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ mv FinalExam n[K~/
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ ls
+[0m[38;5;34mFinalExam_Warren_jfw0006[0m  FinalExam_Warren_jfw0006.cpp  FinalExam_Warren_jfw0006.script
+jfw0006@tux247:~/FinalExam_Warren_jfw0006$ cd
+jfw0006@tux247:~$ tar -zcvf FinalExam_Warren_jfw0006.tar.gz FinalExam [K_Warren_jfw0006
+FinalExam_Warren_jfw0006/
+FinalExam_Warren_jfw0006/FinalExam_Warren_jfw0006.script
+FinalExam_Warren_jfw0006/FinalExam_Warren_jfw0006
+FinalExam_Warren_jfw0006/FinalExam_Warren_jfw0006.cpp
+jfw0006@tux247:~$ ls
+[0m[48;5;10;38;5;21mappdata[0m  [38;5;27mApplication Data[0m  [38;5;27mDesktop[0m  [38;5;27mDocuments[0m  [38;5;27mExam2[0m  [38;5;27mFinalExam[0m  [38;5;27mFinalExam_Warren_jfw0006[0m  [38;5;9mFinalExam_Warren_jfw0006.tar.gz[0m  ntuser.cmd  [38;5;27mProjects[0m  [38;5;27mQuiz1[0m  [38;5;9mQuiz1_jfw0006.tar.gz[0m
+jfw0006@tux247:~$ lstar -zcvf FinalExam_Warren_jfw0006.tar.gz FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Klscdlsmv FinalExam ~/[2Prmv FinalExam[1P FinalExamls[Kcd FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Klsmv FinalExam_Warren_jfw0006.script ~/FinalExam_Warren_jfw0006[3Pcpp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv FinalExam_Warren_jfw0006 ~/FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd FinalExamls[Kcd FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv FinalExam FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Kmv FinalExam FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd FinalExam[Kls[Kmkdir FinalExam_Warren_jfw0006[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd[Klsscript FinalExam_Warren_jfw0006.script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Krm FinalExam_Warren_jfw0006.script[3Pcpp[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdelete[Kremovemvfile[1Pfile[4Plsscript FinalExam_Warren_jfw0006.script[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kg++ FinalExam_Warren_jfw0006.cpp -o FinalExam_Warren_jfw0006 -lpthread[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd FinalExam[3@mkdir[C[C[C[C[C[C[C[C[C[Cls[Kpwdexit[1Ppwd[K[K[Kps[Kwd
+/home/u1/jfw0006
+jfw0006@tux247:~$ exit
+logout
+Connection to 131.204.14.247 closed.
+Connection to gate.eng.auburn.edu closed.
+]0;forester@RYZUNTU: ~/Downloads/Final[01;32mforester@RYZUNTU[00m:[01;34m~/Downloads/Final[00m$ exit
+exit
+Script done, file is FinalExam_Warren_jfw0006.script
+]0;forester@RYZUNTU: ~/Downloads/Final[01;32mforester@RYZUNTU[00m:[01;34m~/Downloads/Final[00m$ exit
+exit
+There are stopped jobs.
+]0;forester@RYZUNTU: ~/Downloads/Final[01;32mforester@RYZUNTU[00m:[01;34m~/Downloads/Final[00m$ close
+
+Command 'close' not found, did you mean:
+
+  command 'gclose' from deb gnustep-gui-runtime (0.27.0-5)
+
+Try: sudo apt install <deb name>
+
+]0;forester@RYZUNTU: ~/Downloads/Final[01;32mforester@RYZUNTU[00m:[01;34m~/Downloads/Final[00m$ exit
+exit
+There are stopped jobs.
+]0;forester@RYZUNTU: ~/Downloads/Final[01;32mforester@RYZUNTU[00m:[01;34m~/Downloads/Final[00m$ exit
+exit
+
+Script done on 2020-05-01 06:15:59-05:00 [COMMAND_EXIT_CODE="1"]
